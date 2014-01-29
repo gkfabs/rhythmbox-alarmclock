@@ -1,0 +1,9 @@
+[Plugin]
+Loader=python3
+Module=alarmclock
+IAge=2
+Name=Alarm Clock
+Description=Alarm clock functionality
+Authors=Jon Oberheide <jon@oberheide.org>, Fabien Carrion
+Copyright=Copyright © 2007 Jon Oberheide, Fabien Carrion
+Website=http://www.rhythmbox.org, http://fabien.carrion.free.fr
