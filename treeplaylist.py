@@ -58,7 +58,7 @@ class TreePlayList:
             while iter_child:
                 str = self.source_model.get_value(iter_child, 1).props.name
                 if str == self.configdata.playlist:
-                    source = self.source_model.get_value(iter, 1)
+                    source = self.source_model.get_value(iter_child, 1)
                     player.set_playing_source(source)
                     return
                 iter_child = self.source_model.iter_next(iter_child)
